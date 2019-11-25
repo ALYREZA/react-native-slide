@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "npx parcel index.pug",
-    "build": "npx parcel build index.pug"
+    "build": "npx parcel build index.pug",
+    "now-build": "npx parcel build index.pug"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
