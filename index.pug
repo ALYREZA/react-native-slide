@@ -5,14 +5,14 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Document
-        link(rel="stylesheet", href="./src/assets/reset.css")
-        link(rel="stylesheet", href="./src/assets/reveal.css")
-        link(rel="stylesheet", href="./src/assets/white.css")
+        link(rel="stylesheet", href="./src/assets/reset.css",media="all")
+        link(rel="stylesheet", href="./src/assets/reveal.css",media="all")
+        link(rel="stylesheet", href="./src/assets/white.css",media="all")
     body
         div.reveal
             div.slides
                 include src/sections/first.pug 
-        script(type="text/javascript")
+        script(type="text/javascript", async="async")
             include src/assets/reveal.js
         script(type="text/javascript")
             include src/assets/main.js
