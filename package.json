@@ -4,12 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npx parcel index.pug",
-    "build": "npx parcel build index.pug",
-    "now-build": "npx parcel build index.pug"
+    "start": "parcel index.pug",
+    "build": "parcel build index.pug",
+    "now-build": "parcel build index.pug"
   },
   "devDependencies": {
     "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
     "pug": "^2.0.4"
   }
 }
